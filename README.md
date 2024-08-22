@@ -15,8 +15,8 @@ Chatbots são ferramentas automatizadas que interagem com usuários através de 
 
 ## Diferença entre Dados Transacionais e Analíticos
 
-- Dados Transacionais: São os dados brutos gerados diretamente pela interação do usuário com o bot, como mensagens enviadas, comandos utilizados, etc.
-- Dados Analíticos: São dados refinados e processados, preparados para análise, com o objetivo de extrair insights e informações estratégicas.
+- **Dados Transacionais**: São os dados brutos gerados diretamente pela interação do usuário com o bot, como mensagens enviadas, comandos utilizados, etc.
+- **Dados Analíticos**: São dados refinados e processados, preparados para análise, com o objetivo de extrair insights e informações estratégicas.
 
 # Arquitetura
 
@@ -29,13 +29,13 @@ Neste projeto, o sistema transacional é representado pelo chatbot no Telegram, 
 
 O sistema analítico é responsável por transformar os dados transacionais em dados prontos para análise. Ele é dividido em três etapas:
 
-- Ingestão: Os dados são captados via webhook da API de bots do Telegram e armazenados no AWS S3 no formato JSON.
-- ETL (Extração, Transformação e Carregamento): Os dados são processados por funções do AWS Lambda, que realizam a limpeza, deduplicação e compressão dos dados, armazenando-os em uma camada enriquecida no AWS S3.
-- Apresentação: Os dados processados estão prontos para análise e podem ser acessados para gerar insights e relatórios.
+- **Ingestão**: Os dados são captados via webhook da API de bots do Telegram e armazenados no AWS S3 no formato JSON.
+- **ETL (Extração, Transformação e Carregamento)**: Os dados são processados por funções do AWS Lambda, que realizam a limpeza, deduplicação e compressão dos dados, armazenando-os em uma camada enriquecida no AWS S3.
+- **Apresentação**: Os dados processados estão prontos para análise e podem ser acessados para gerar insights e relatórios.
 
 # Justificativa para o Projeto
 
-A necessidade de converter dados transacionais em dados analíticos surge para extrair insights valiosos, melhorar o desempenho do chatbot e entender melhor o comportamento dos usuários. Isso permite a otimização contínua das interações do bot e a personalização das respostas com base no comportamento dos usuários.
+A necessidade de converter dados transacionais em dados analíticos surge para extrair **insights valiosos**, melhorar o desempenho do chatbot e entender melhor o comportamento dos usuários. Isso permite a otimização contínua das interações do bot e a personalização das respostas com base no comportamento dos usuários.
 
 
 # Ferramentas Utilizadas
@@ -45,8 +45,6 @@ A necessidade de converter dados transacionais em dados analíticos surge para e
 [![AWS API Gateway](https://img.shields.io/badge/AWS%20API%20Gateway-REST%20API-blue.svg)](https://aws.amazon.com/api-gateway/)
 [![AWS EventBridge](https://img.shields.io/badge/AWS%20EventBridge-Event%20Bus-blue.svg)](https://aws.amazon.com/eventbridge/)
 [![Python](https://img.shields.io/badge/Python-3.8-blue.svg)](https://www.python.org/)
-[![OS](https://img.shields.io/badge/OS-built--in-blue.svg)](https://docs.python.org/3/library/os.html)
-[![JSON](https://img.shields.io/badge/JSON-built--in-blue.svg)](https://docs.python.org/3/library/json.html)
 [![Logging](https://img.shields.io/badge/Logging-built--in-blue.svg)](https://docs.python.org/3/library/logging.html)
 [![Datetime](https://img.shields.io/badge/Datetime-built--in-blue.svg)](https://docs.python.org/3/library/datetime.html)
 [![Getpass](https://img.shields.io/badge/Getpass-built--in-blue.svg)](https://docs.python.org/3/library/getpass.html)
