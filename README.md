@@ -20,6 +20,8 @@ Chatbots são ferramentas automatizadas que interagem com usuários através de 
 
 # Arquitetura
 
+[![Imagem Pipeline](https://github.com/Armanskij/Projeto-Pipeline_AWS_Telegram/blob/main/Profissao%20Analista%20de%20dados%20M42%20Material%20de%20apoio%20arch.png)
+
 ## Sistema Transacional
 
 Neste projeto, o sistema transacional é representado pelo chatbot no Telegram, que captura e envia dados transacionais para a nuvem.
@@ -38,13 +40,22 @@ A necessidade de converter dados transacionais em dados analíticos surge para e
 
 # Ferramentas Utilizadas
 
-[![SQLite](https://img.shields.io/badge/SQLite-3.35.5-blue.svg)](https://sqlite.org/)
-[![Boto3](https://img.shields.io/badge/Boto3-1.18.69-blue.svg)](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
-[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.4.3-blue.svg)](https://matplotlib.org/)
-[![Pandas](https://img.shields.io/badge/Pandas-1.3.3-blue.svg)](https://pandas.pydata.org/)
-[![Seaborn](https://img.shields.io/badge/Seaborn-0.11.1-blue.svg)](https://seaborn.pydata.org/)
-[![Botocore](https://img.shields.io/badge/Botocore-1.21.69-blue.svg)](https://botocore.amazonaws.com/v1/documentation/api/latest/index.html)
-[![Tabulate](https://img.shields.io/badge/Tabulate-0.8.9-blue.svg)](https://pypi.org/project/tabulate/)
+[![AWS S3](https://img.shields.io/badge/AWS%20S3-Storage-blue.svg)](https://aws.amazon.com/s3/)
+[![AWS Lambda](https://img.shields.io/badge/AWS%20Lambda-Compute-blue.svg)](https://aws.amazon.com/lambda/)
+[![AWS API Gateway](https://img.shields.io/badge/AWS%20API%20Gateway-REST%20API-blue.svg)](https://aws.amazon.com/api-gateway/)
+[![AWS EventBridge](https://img.shields.io/badge/AWS%20EventBridge-Event%20Bus-blue.svg)](https://aws.amazon.com/eventbridge/)
+[![Python](https://img.shields.io/badge/Python-3.8-blue.svg)](https://www.python.org/)
+[![OS](https://img.shields.io/badge/OS-built--in-blue.svg)](https://docs.python.org/3/library/os.html)
+[![JSON](https://img.shields.io/badge/JSON-built--in-blue.svg)](https://docs.python.org/3/library/json.html)
+[![Logging](https://img.shields.io/badge/Logging-built--in-blue.svg)](https://docs.python.org/3/library/logging.html)
+[![Datetime](https://img.shields.io/badge/Datetime-built--in-blue.svg)](https://docs.python.org/3/library/datetime.html)
+[![Getpass](https://img.shields.io/badge/Getpass-built--in-blue.svg)](https://docs.python.org/3/library/getpass.html)
+[![Requests](https://img.shields.io/badge/Requests-2.28.1-blue.svg)](https://docs.python-requests.org/)
+[![Boto3](https://img.shields.io/badge/Boto3-1.28.12-blue.svg)](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
+[![PyArrow](https://img.shields.io/badge/PyArrow-12.0.0-blue.svg)](https://arrow.apache.org/docs/python/)
+[![PyArrow Parquet](https://img.shields.io/badge/PyArrow_Parquet-12.0.0-blue.svg)](https://arrow.apache.org/docs/python/parquet.html)
+
+
 
 
 
